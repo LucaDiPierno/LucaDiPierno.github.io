@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Luca Di Pierno
+title: Home
 ---
 
 <h1 style="margin-bottom: 0;">👋 Hello, I'm <strong>Luca Di Pierno</strong></h1>
@@ -17,7 +17,7 @@ This site shares my work, thoughts, and progress on ongoing research and develop
 - 📚 [Blog](/blog/)
 - 🚀 [Projects](/projects/)
 - 👤 [About Me](/about/)
-- 🧠 [GitHub Profile](https://github.com/pierlucadp) <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="20" style="vertical-align: middle; margin-left: 4px;"/>
+- 🧠 [GitHub Profile](https://github.com/LucaDiPierno) <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="20" style="vertical-align: middle; margin-left: 4px;"/>
 
 ---
 
