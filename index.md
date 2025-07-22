@@ -3,33 +3,40 @@ layout: home
 title: Home
 ---
 
-<h1 style="margin-bottom: 0;">👋 Hello, I'm <strong>Luca Di Pierno</strong></h1>
 
-<p>
-I’m a robotics researcher and PhD student working on autonomous aerial and space robotic systems.<br>
-This site shares my work, thoughts, and progress on ongoing research and development.
+<div style="text-align: center; margin-top: 2em;">
+
+<h1 style="font-size: 3em; margin-bottom: 0.2em;">👋 Hi, I'm <strong style="color: #0b84ff;">Luca Di Pierno</strong></h1>
+<p style="font-size: 1.2em; color: #555;">
+Robotics PhD student building autonomy for aerial and space robots.
 </p>
 
----
+<hr style="max-width: 300px; margin: 2em auto;" />
 
-## 🔗 Quick Links
-
-<div style="margin-top: 1em;">
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-bottom: 2em;">
   <a href="/blog/" style="text-decoration: none;">
-    <button style="padding: 10px 20px; margin: 5px; font-size: 16px;">📝 Blog</button>
+    <button style="padding: 12px 24px; font-size: 16px; border-radius: 8px; background-color: #0b84ff; color: white; border: none;">
+      📝 Blog
+    </button>
   </a>
   <a href="/projects/" style="text-decoration: none;">
-    <button style="padding: 10px 20px; margin: 5px; font-size: 16px;">🚀 Projects</button>
+    <button style="padding: 12px 24px; font-size: 16px; border-radius: 8px; background-color: #0b84ff; color: white; border: none;">
+      🚀 Projects
+    </button>
   </a>
   <a href="/about/" style="text-decoration: none;">
-    <button style="padding: 10px 20px; margin: 5px; font-size: 16px;">👤 About Me</button>
+    <button style="padding: 12px 24px; font-size: 16px; border-radius: 8px; background-color: #0b84ff; color: white; border: none;">
+      👤 About Me
+    </button>
   </a>
   <a href="/publications/" style="text-decoration: none;">
-    <button style="padding: 10px 20px; margin: 5px; font-size: 16px;">📄 Publications</button>
+    <button style="padding: 12px 24px; font-size: 16px; border-radius: 8px; background-color: #0b84ff; color: white; border: none;">
+      📄 Publications
+    </button>
   </a>
   <a href="https://github.com/LucaDiPierno" target="_blank" style="text-decoration: none;">
-    <button style="padding: 10px 20px; margin: 5px; font-size: 16px;">
-      🧠 GitHub Profile
+    <button style="padding: 12px 24px; font-size: 16px; border-radius: 8px; background-color: #24292e; color: white; border: none;">
+      🧠 GitHub
       <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
            alt="GitHub" width="18"
            style="vertical-align: middle; margin-left: 6px; margin-bottom: 3px;" />
@@ -37,7 +44,11 @@ This site shares my work, thoughts, and progress on ongoing research and develop
   </a>
 </div>
 
+</div>
+
+
 ---
+
 
 ## ✨ Latest Updates
 
@@ -50,8 +61,11 @@ Stay tuned for posts and insights on:
 ---
 
 <style>
+body {
+  background-color: #f8f9fa;
+}
 h1, h2, h3 {
-  color: #f0f0f0;
+  color: #222;
 }
 </style>
 
