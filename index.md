@@ -6,6 +6,8 @@ title: Home
 
 <div style="text-align: center; margin-top: 2em;">
 
+<img src="/assets/images/me.jpg" alt="Luca Di Pierno" width="160" style="border-radius: 50%; margin-bottom: 1em;" />
+
 <h1 style="font-size: 3em; margin-bottom: 0.2em;">👋 Hi, I'm <strong style="color: #0b84ff;">Luca Di Pierno</strong></h1>
 <p style="font-size: 1.2em; color: #555;">
 Robotics PhD student building autonomy for aerial and space robots.
