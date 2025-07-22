@@ -32,4 +32,3 @@ PhD researcher at the **Control of Networked Systems Group**, led by Professor S
 I am also leading student teams in international robotics competitions and collaborate closely with JPL researchers.
 
 Feel free to connect or explore my [GitHub Profile](https://github.com/LucaDiPierno) for more details.
-
