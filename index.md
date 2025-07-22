@@ -17,6 +17,19 @@ This site shares my work, thoughts, and progress on ongoing research and develop
 - 📚 [Blog](/blog/)
 - 🚀 [Projects](/projects/)
 - 👤 [About Me](/about/)
+
+<div style="margin-top: 1em;">
+  <a href="/blog/" style="text-decoration: none;">
+    <button style="padding: 10px 20px; margin: 5px; font-size: 16px;">📝 Blog</button>
+  </a>
+  <a href="/projects/" style="text-decoration: none;">
+    <button style="padding: 10px 20px; margin: 5px; font-size: 16px;">🚀 Projects</button>
+  </a>
+  <a href="/about/" style="text-decoration: none;">
+    <button style="padding: 10px 20px; margin: 5px; font-size: 16px;">👤 About Me</button>
+  </a>
+</div>
+
 - 🧠 [GitHub Profile](https://github.com/LucaDiPierno) <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="20" style="vertical-align: middle; margin-left: 4px;"/>
 
 ---
