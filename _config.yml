@@ -5,6 +5,15 @@ author: Luca Di Pierno
 theme: minima
 markdown: kramdown
 
+# Add this line
+sass:
+  style: compressed
+
+# Enable the stylesheet
+include:
+  - assets/css
+
+
 # Needed for GitHub Pages
 url: "https://lucadipierno.github.io"
 baseurl: ""
