@@ -60,12 +60,15 @@ Robotics PhD student building autonomy for aerial and space robots.
 
 ## ✨ Latest Updates
 
-<div style="color: #ddd;">
+<div style="color: #ddd; text-align: left; max-width: 700px; margin: auto;">
+
 Stay tuned for posts and insights on:
 
-- Autonomous multi-agent drones for search and rescue
-- Robust mission autonomy frameworks for robotic space systems
-- PX4-based control interfaces with ROS 2
+<ul>
+  <li><strong>Sapience Competition:</strong> Autonomous multi-agent drones for search and rescue</li>
+  <li>Robust mission autonomy frameworks</li>
+  <li>PX4 and ArduPilot-based control interfaces with ROS 2</li>
+</ul>
 
 </div>
 
