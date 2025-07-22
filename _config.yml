@@ -1,9 +1,15 @@
 
-title: Home
+title: Luca Di Pierno's Website
 description: Robotics, Autonomy & Space Systems
 author: Luca Di Pierno
 theme: minima
 markdown: kramdown
+
+header_pages:
+  - _pages/blog.md
+  - _pages/projects.md
+  - _pages/publications.md
+  - _pages/about.md
 
 # Add this line
 sass:
