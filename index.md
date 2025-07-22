@@ -55,6 +55,8 @@ Robotics PhD student building autonomy for aerial and space robots.
 
 ---
 
+<!-- Spacer -->
+<div style="margin-top: 3em;"></div>
 
 ## ✨ Latest Updates
 
