@@ -18,6 +18,10 @@ This site shares my work, thoughts, and progress on ongoing research and develop
 - 🚀 [Projects](/projects/)
 - 👤 [About Me](/about/)
 
+<a href="/blog/" class="link-button">📝 Blog</a>
+<a href="/projects/" class="link-button">🚀 Projects</a>
+<a href="/about/" class="link-button">👤 About Me</a>
+
 <div style="margin-top: 1em;">
   <a href="/blog/" style="text-decoration: none;">
     <button style="padding: 10px 20px; margin: 5px; font-size: 16px;">📝 Blog</button>
