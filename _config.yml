@@ -17,6 +17,7 @@ sass:
 
 # Enable the stylesheet
 include:
+  - _pages
   - assets/css
 
 
