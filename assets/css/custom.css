@@ -1,3 +1,25 @@
+body {
+  background: linear-gradient(to bottom, #f0f4f8, #e2ecf5);
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #003366;
+}
+
+a {
+  color: #0b84ff;
+}
+
+button {
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fbb !important;
+}
+
 .link-button {
   padding: 10px 20px;
   margin: 5px;
