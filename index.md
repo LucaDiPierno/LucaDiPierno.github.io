@@ -5,7 +5,7 @@ title: Home
 
 
 
-<div style="text-align: center; margin-top: 2em;">
+<div style="text-align: center; margin-top: 2em; padding: 2em; border-radius: 12px;">
 
 <img src="/assets/images/luca_profile.jpg" alt="Luca Di Pierno" width="160" style="border-radius: 50%; margin-bottom: 1em;" />
 
@@ -14,8 +14,9 @@ title: Home
 Robotics PhD student building autonomy for aerial and space robots.
 </p>
 
-<hr style="max-width: 300px; margin: 2em auto;" />
+<hr style="max-width: 300px; margin: 2em auto; border: 1px solid #444;" />
 
+<!-- Button row -->
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-bottom: 2em;">
   <a href="/blog/" style="text-decoration: none;">
     <button style="padding: 12px 24px; font-size: 16px; border-radius: 8px; background-color: #0b84ff; color: white; border: none;">
@@ -49,26 +50,56 @@ Robotics PhD student building autonomy for aerial and space robots.
 
 </div>
 
+<!-- Spacer -->
+<div style="margin-top: 3em;"></div>
 
 ---
 
 
 ## ✨ Latest Updates
 
+<div style="color: #ddd;">
 Stay tuned for posts and insights on:
 
 - Autonomous multi-agent drones for search and rescue
 - Robust mission autonomy frameworks for robotic space systems
 - PX4-based control interfaces with ROS 2
 
+</div>
+
+<!-- Spacer -->
+<div style="margin-top: 3em;"></div>
+
 ---
 
 <style>
+/* Page background and typography */
 body {
-  background-color: #f8f9fa;
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: "Helvetica Neue", sans-serif;
 }
+
 h1, h2, h3 {
-  color: #222;
+  color: #e0e0e0;
+}
+
+/* Custom dark button style */
+.dark-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #1f1f1f;
+  color: #f1f1f1;
+  border: 1px solid #444;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.dark-button:hover {
+  background-color: #333;
+  transform: translateY(-2px);
 }
 </style>
 
