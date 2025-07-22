@@ -1,1 +1,10 @@
 
+title: Luca Di Pierno 
+description: Robotics, Autonomy & Space Systems
+author: Luca Di Pierno
+theme: minima
+markdown: kramdown
+
+# Needed for GitHub Pages
+url: "https://lucadipierno.github.io"
+baseurl: ""
