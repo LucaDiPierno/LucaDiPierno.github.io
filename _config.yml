@@ -12,12 +12,6 @@ theme: minima
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
-# Think how to remove them
-# header_pages:
-#   - _pages/blog.md
-#   - _pages/projects.md
-  # - _pages/publications.md
-  # - _pages/about.md
 
 author:
   # Biographic information
