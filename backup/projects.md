@@ -1,7 +1,8 @@
 ---
 layout: simple
-title: "Projects"
-permalink: /projects/
+title: "Dummy Projects"
+permalink: /dummy/
+# permalink: /projects/
 author_profile: true
 ---
 
