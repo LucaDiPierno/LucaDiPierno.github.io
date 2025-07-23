@@ -51,16 +51,17 @@ Robotics PhD student building autonomy for aerial and space robots.
 </div>
 
 <!-- Spacer -->
-<div style="margin-top: 3em;"></div>
+<!-- <div style="margin-top: 3em;"></div> -->
 
 ---
 
 <!-- Spacer -->
-<div style="margin-top: 3em;"></div>
+<!-- <div style="margin-top: 3em;"></div> -->
 
-## ✨ Latest Updates
+✨ Latest Updates
+======
 
-<div style="color: #ddd; text-align: left; max-width: 700px; margin: auto;">
+<!-- <div style="color: #ddd; text-align: left; max-width: 700px; margin: auto;"> -->
 
 Stay tuned for posts and insights on:
 
@@ -73,9 +74,9 @@ Stay tuned for posts and insights on:
 </div>
 
 <!-- Spacer -->
-<div style="margin-top: 3em;"></div>
+<!-- <div style="margin-top: 3em;"></div> -->
 
----
+<!-- --- -->
 
 <style>
 /* Page background and typography */
