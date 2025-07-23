@@ -55,6 +55,9 @@ Robotics PhD student building autonomy for aerial and space robots.
 
 ---
 
+Welcome
+======
+
 Welcome to my personal website.
 
 This platform serves as a central hub for my work in robotics, autonomy, and intelligent systems. Here you’ll find an overview of my research projects, technical blog posts, academic publications, and other resources related to autonomous aerial and space robotics.
