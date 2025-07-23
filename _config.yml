@@ -1,4 +1,7 @@
 
+# Basic Site Settings
+locale                   : "en-US"
+site_theme               : "default"
 title: Luca Di Pierno's Website
 description: Robotics, Autonomy & Space Systems
 author: Luca Di Pierno
