@@ -4,6 +4,8 @@ description: Robotics, Autonomy & Space Systems
 author: Luca Di Pierno
 theme: minima
 markdown: kramdown
+highlighter: rouge
+timezone: Etc/UTC
 
 header_pages:
   - _pages/blog.md
@@ -13,6 +15,7 @@ header_pages:
 
 # Add this line
 sass:
+  sass_dir: _sass
   style: compressed
 
 # Enable the stylesheet
@@ -24,3 +27,13 @@ include:
 # Needed for GitHub Pages
 url: "https://lucadipierno.github.io"
 baseurl: ""
+
+
+# Publication Category - The following the list of publication categories and their headings
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'    
+  conferences:
+    title: 'Conference Papers'
