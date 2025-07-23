@@ -22,7 +22,7 @@ author:
   avatar           : "luca_profile.jpg"
   name             : "Luca Di Pierno"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : #
   location         : "Klagenfurt, Austria"
   employer         : "University of Klagenfurt"
   uri              : # URL
