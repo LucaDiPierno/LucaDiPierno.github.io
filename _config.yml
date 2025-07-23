@@ -17,6 +17,36 @@ header_pages:
   # - _pages/publications.md
   - _pages/about.md
 
+author:
+  # Biographic information
+  avatar           : "luca_profile.jpg"
+  name             : "Luca Di Pierno"
+  pronouns         : # example: "she/her"  
+  bio              : "Short biography for the left-hand sidebar"
+  location         : "Klagenfurt, Austria"
+  employer         : "University of Klagenfurt, Control of Networked Systems Group"
+  uri              : # URL
+  email            : "luca.dipierno@aau.at" 
+
+  # Academic websites
+  academia         : # URL
+  arxiv            : # URL - Update with the correct link to your profile
+  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  orcid            : "http://orcid.org/yourorcidurl"
+  researchgate     : # URL
+
+  # Repositories and software development
+  bitbucket        : # Username - Update with your username on the site
+  github           : "academicpages"
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+
+  # Social media
+  linkedin         : # Username
+  medium           : # URL
+  twitter          : # Username for X / Twitter
+  xing             : # Username
+  youtube          : # Username
+
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
