@@ -14,7 +14,7 @@ timezone: Etc/UTC
 header_pages:
   - _pages/blog.md
   - _pages/projects.md
-  - _pages/publications.md
+  # - _pages/publications.md
   - _pages/about.md
 
 
