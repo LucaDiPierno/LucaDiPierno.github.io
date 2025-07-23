@@ -89,9 +89,9 @@ body {
   font-family: "Helvetica Neue", sans-serif;
 }
 
-h1, h2, h3 {
+/* h1, h2, h3 {
   color: #e0e0e0;
-}
+} */
 
 /* Custom dark button style */
 .dark-button {
