@@ -1,7 +1,12 @@
 ---
 layout: page
 title: About Me
-permalink: /about/
+author_profile: true
+# permalink: /about/
+permalink: /
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 # 👤 About Me
