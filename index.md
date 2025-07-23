@@ -63,6 +63,9 @@ Please note that this website is still under active development — some section
 
 Thank you for your interest, and feel free to explore what's already available.
 
+<!-- Spacer -->
+<div style="margin-top: 3em;"></div>
+
 ---
 
 
@@ -76,6 +79,7 @@ Stay tuned for posts and insights on:
   <li><strong>Sapience Competition:</strong> Autonomous multi-agent drones for search and rescue</li>
   <li>Robust mission autonomy frameworks</li>
   <li>PX4 and ArduPilot-based control interfaces with ROS 2</li>
+  <li><strong>CASE Conference Paper: </strong>Hybrid Mission Autonomy for Future Mars Helicopter </li>
 </ul>
 
 
