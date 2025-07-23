@@ -3,9 +3,6 @@ layout: page
 title: About Me
 author_profile: true
 permalink: /about/
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
 
