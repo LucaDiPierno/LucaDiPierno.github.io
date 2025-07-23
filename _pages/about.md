@@ -7,6 +7,7 @@ redirect_from:
   - /about_me
 ---
 
+{% include toc %}
 
 👤 About Me
 ======
