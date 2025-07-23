@@ -79,9 +79,13 @@ Stay tuned for posts and insights on:
 
 <style>
 /* Page background and typography */
-body {
+/* body {
   background-color: #121212;
   color: #e0e0e0;
+  font-family: "Helvetica Neue", sans-serif;
+} */
+
+body {
   font-family: "Helvetica Neue", sans-serif;
 }
 
