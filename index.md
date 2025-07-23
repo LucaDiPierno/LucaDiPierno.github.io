@@ -61,7 +61,6 @@ Robotics PhD student building autonomy for aerial and space robots.
 ✨ Latest Updates
 ======
 
-<!-- <div style="color: #ddd; text-align: left; max-width: 700px; margin: auto;"> -->
 
 Stay tuned for posts and insights on:
 
@@ -71,28 +70,12 @@ Stay tuned for posts and insights on:
   <li>PX4 and ArduPilot-based control interfaces with ROS 2</li>
 </ul>
 
-</div>
 
-<!-- Spacer -->
-<!-- <div style="margin-top: 3em;"></div> -->
-
-<!-- --- -->
-
-<style>
-/* Page background and typography */
-/* body {
-  background-color: #121212;
-  color: #e0e0e0;
-  font-family: "Helvetica Neue", sans-serif;
-} */
+<!-- <style>
 
 body {
   font-family: "Helvetica Neue", sans-serif;
 }
-
-/* h1, h2, h3 {
-  color: #e0e0e0;
-} */
 
 /* Custom dark button style */
 .dark-button {
@@ -111,5 +94,5 @@ body {
   background-color: #333;
   transform: translateY(-2px);
 }
-</style>
+</style> -->
 
