@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Robotics, University of Klagenfurt, 2027 (expected)
+* M.S. in Robotics, ETH Zurich, 2024
+* B.S. in Mechanical Engineering, ETH Zurich, 2022
 
 Work experience
 ======
@@ -34,7 +34,7 @@ Work experience
   
 Skills
 ======
-* Skill 1
+* Project Management
 * Skill 2
   * Sub-skill 2.1
   * Sub-skill 2.2
@@ -44,6 +44,12 @@ Skills
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+Projects
+======
+  <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   

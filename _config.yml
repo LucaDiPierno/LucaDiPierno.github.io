@@ -13,11 +13,11 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
 # Think how to remove them
-header_pages:
-  - _pages/blog.md
-  - _pages/projects.md
+# header_pages:
+#   - _pages/blog.md
+#   - _pages/projects.md
   # - _pages/publications.md
-  - _pages/about.md
+  # - _pages/about.md
 
 author:
   # Biographic information
@@ -95,6 +95,13 @@ staticman:
 atom_feed:
   hide                   : false     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
+
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
 
 # Analytics
 analytics:
