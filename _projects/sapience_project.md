@@ -1,4 +1,13 @@
 ---
+title: "Example Project"
+description: "Brief summary of the project goals or results."
+image: "/assets/images/example.jpg"
+status: "active"  # or "completed"
+permalink: /projects/example/
+layout: single
+---
+
+---
 layout: project
 title: "Sapience Project"
 date: 2025-07-22
