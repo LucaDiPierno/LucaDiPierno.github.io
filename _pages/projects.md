@@ -5,9 +5,6 @@ permalink: /projects/
 author_profile: true
 ---
 
-🚀 Projects
-======
-
 Here is a selection of projects I’ve worked on during my studies, research, and collaborations.
 
 ---
