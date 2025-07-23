@@ -53,6 +53,15 @@ publication_category:
   conferences:
     title: 'Conference Papers'
 
+# Publication Category - The following the list of publication categories and their headings
+projects_status:
+  active:
+    title: 'Active Projects'
+  upcoming:
+    title: 'Upcoming Projects'    
+  past:
+    title: 'Past Projects'
+
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)

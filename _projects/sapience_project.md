@@ -1,21 +1,10 @@
 ---
-title: "Example Project"
-description: "Brief summary of the project goals or results."
-image: "/assets/images/example.jpg"
-status: "active"  # or "completed"
-permalink: /projects/example/
+title: "Sapience: Autonomous Search & Rescue Drones"
+description: "Developing multi-agent autonomy for GPS-denied disaster zones."
+image: "/assets/images/sapience.jpg"
+status: "active"  # Must match a key in `projects_status`
+permalink: /projects/sapience/
 layout: single
----
-
----
-layout: project
-title: "Sapience Project"
-date: 2025-07-22
-categories: updates
-tags:
-  - cool posts
-  - Sapience
-  - category2
 ---
 
 
