@@ -1,9 +1,11 @@
 ---
-layout: single
+layout: simple
 title: "Projects"
 permalink: /projects/
 author_profile: true
 ---
+
+{% include toc %}
 
 Here is a selection of projects I’ve worked on during my studies, research, and collaborations.
 
