@@ -53,7 +53,7 @@ publication_category:
   conferences:
     title: 'Conference Papers'
 
-# Publication Category - The following the list of publication categories and their headings
+# Project Status - The following the list of project statuses and their headings
 projects_status:
   active:
     title: 'Active Projects'

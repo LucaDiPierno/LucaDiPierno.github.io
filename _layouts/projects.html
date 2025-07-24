@@ -9,17 +9,18 @@ author_profile: false
 
 <div class="page__content">
   <h1>Projects</h1>
-  <p>Below is an overview of ongoing, upcoming, and completed research and development projects.</p>
+  <p>Below you will find a selection of my current, upcoming, and completed research and development projects.</p>
 
   {% for group in site.projects_status %}
     {% assign key = group[0] %}
     {% assign title = group[1].title %}
-    {% assign filtered_projects = site.projects | where: "status", key %}
-    {% if filtered_projects.size > 0 %}
+    {% assign projects = site.projects | where: "status", key %}
+    {% if projects.size > 0 %}
       <h2 style="margin-top: 2em;">{{ title }}</h2>
       <hr />
+
       <div class="project-grid">
-        {% for project in filtered_projects %}
+        {% for project in projects %}
           <div class="project-card">
             <a href="{{ project.url | relative_url }}">
               {% if project.image %}
@@ -28,6 +29,9 @@ author_profile: false
               <div class="project-info">
                 <h3>{{ project.title }}</h3>
                 <p>{{ project.description }}</p>
+                <p class="project-status">
+                  <span class="status-label status-{{ project.status | downcase }}">{{ project.status | capitalize }}</span>
+                </p>
               </div>
             </a>
           </div>

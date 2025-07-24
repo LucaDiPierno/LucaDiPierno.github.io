@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div id="main" role="main">
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <header>
+      <h1 class="page__title" itemprop="headline">{{ page.title }}</h1>
+      {% if page.description %}
+        <p class="page__meta" itemprop="description">{{ page.description }}</p>
+      {% endif %}
+      {% if page.status %}
+        <p><strong>Status:</strong> {{ page.status | capitalize }}</p>
+      {% endif %}
+    </header>
+
+    {% if page.image %}
+      <div style="margin: 1em 0;">
+        <img src="{{ page.image | relative_url }}" alt="{{ page.title }} main image" style="width: 100%; max-width: 800px; border-radius: 8px;" />
+      </div>
+    {% endif %}
+
+    <section class="page__content" itemprop="text">
+      {{ content }}
+    </section>
+
+    {% if page.additional_images %}
+      <h2>Gallery</h2>
+      <div style="display: flex; flex-wrap: wrap; gap: 1em;">
+        {% for img in page.additional_images %}
+          <div style="flex: 1 1 300px;">
+            <img src="{{ img | relative_url }}" alt="Additional image" style="width: 100%; border-radius: 6px;" />
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <section style="margin-top: 2em;">
+      {% if page.project_website %}
+        <p><strong>Project Website:</strong> <a href="{{ page.project_website }}" target="_blank">{{ page.project_website }}</a></p>
+      {% endif %}
+      {% if page.github_url %}
+        <p><strong>GitHub Repository:</strong> <a href="{{ page.github_url }}" target="_blank">{{ page.github_url }}</a></p>
+      {% endif %}
+      {% if page.paper_url %}
+        <p><strong>Related Paper:</strong> <a href="{{ page.paper_url }}" target="_blank">{{ page.paper_url }}</a></p>
+      {% endif %}
+    </section>
+  </article>
+</div>

@@ -14,8 +14,8 @@ main:
   - title: "Publications"
     url: /publications/
   
-  - title: "Frameworks"
-    url: /frameworks/ 
+  # - title: "Frameworks"
+  #   url: /frameworks/ 
         
   - title: "Blog Posts"
     url: /year-archive/
