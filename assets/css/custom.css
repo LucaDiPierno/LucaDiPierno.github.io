@@ -63,68 +63,30 @@ button:hover {
   .left-spacer-layout {
     padding: 0 1rem;
   }
+
+  .project-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-thumbnail-wrapper {
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
+
+  .project-info {
+    align-items: center;
+  }
 }
 
-.project-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  margin-top: 1rem;
-}
-
-.project-card {
-  flex: 1 1 300px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  transition: box-shadow 0.3s ease;
-  background: var(--background-color, #fff);
-}
-
-.project-card:hover {
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
-}
-
-.project-card a {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-  height: 100%;
-}
-
-.project-thumbnail {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-}
-
-.project-info {
-  padding: 1rem;
-}
-
-.project-info h3 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-}
-
-.status-label {
-  font-size: 0.85em;
-  font-weight: bold;
-  padding: 0.25em 0.5em;
-  border-radius: 0.25em;
-}
-
-.status-active { background-color: #e0fbe0; color: #006400; }
-.status-completed { background-color: #e0e0e0; color: #555; }
-.status-upcoming { background-color: #fef3c7; color: #8a6d3b; }
-
-
+/* Project Section Layout */
 .project-list {
   display: flex;
   flex-direction: column;
   gap: 1.5em;
 }
 
+/* Project Card */
 .project-card {
   display: flex;
   flex-direction: row;
@@ -141,6 +103,7 @@ button:hover {
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
 }
 
+/* Image Handling */
 .project-thumbnail-wrapper {
   flex-shrink: 0;
   width: 140px;
@@ -161,15 +124,44 @@ button:hover {
   border-radius: 8px;
 }
 
-.project-details {
+/* Project Text Content */
+.project-info {
   flex: 1;
 }
 
-.project-details h3 {
+.project-info h3 {
   margin-top: 0;
   margin-bottom: 0.3em;
 }
 
+.project-info p {
+  margin: 0.5em 0;
+}
+
+/* Status Badge */
+.status-label {
+  font-size: 0.85em;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  border-radius: 0.25em;
+}
+
+.status-active {
+  background-color: #e0fbe0;
+  color: #006400;
+}
+
+.status-completed {
+  background-color: #e0e0e0;
+  color: #555;
+}
+
+.status-upcoming {
+  background-color: #fef3c7;
+  color: #8a6d3b;
+}
+
+/* Project Link/Button */
 .project-link {
   display: inline-block;
   margin-top: 0.5em;
