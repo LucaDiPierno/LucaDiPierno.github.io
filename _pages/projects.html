@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: projects_overview
 title: "Projects"
 permalink: /projects/
 author_profile: false
@@ -9,34 +9,40 @@ author_profile: false
 
 <div class="page__content">
   <h1>Projects</h1>
-  <p>Below is an overview of ongoing, upcoming, and completed research and development projects.</p>
+  <p>Below you will find a selection of my current, upcoming, and completed research and development projects.</p>
 
-  <div class="project-list">
-    {% for group in site.projects_status %}
-      {% assign key = group[0] %}
-      {% assign title = group[1].title %}
-      {% assign filtered_projects = site.projects | where: "status", key %}
-      {% if filtered_projects.size > 0 %}
-        <h2 style="margin-top: 2em;">{{ title }}</h2>
-        <hr />
-        {% for project in filtered_projects %}
+  {% for group in site.projects_status %}
+    {% assign key = group[0] %}
+    {% assign title = group[1].title %}
+    {% assign projects = site.projects | where: "status", key %}
+    {% if projects.size > 0 %}
+      <h2 style="margin-top: 2em;">{{ title }}</h2>
+      <hr />
+
+      <div class="project-list">
+        {% for project in projects %}
           <div class="project-card">
+            {% assign image_path = project.image %}
+            {% unless image_path %}
+              {% assign folder_name = project.path | split: '/' | first %}
+              {% assign image_path = '/projects/' | append: folder_name | append: '/thumb.jpg' %}
+            {% endunless %}
+
             <div class="project-thumbnail-wrapper">
-              {% assign image_path = project.image %}
-              {% unless image_path %}
-                {% assign folder_name = project.path | split: '/' | first %}
-                {% assign image_path = '/projects/' | append: folder_name | append: '/thumb.jpg' %}
-              {% endunless %}
               <img src="{{ image_path | relative_url }}" alt="{{ project.title }} thumbnail" class="project-thumbnail" />
             </div>
-            <div class="project-details">
+
+            <div class="project-info">
               <h3>{{ project.title }}</h3>
               <p>{{ project.description }}</p>
+              <p class="project-status">
+                <span class="status-label status-{{ project.status | downcase }}">{{ project.status | capitalize }}</span>
+              </p>
               <a href="{{ project.url | relative_url }}" class="project-link">View Project →</a>
             </div>
           </div>
         {% endfor %}
-      {% endif %}
-    {% endfor %}
-  </div>
+      </div>
+    {% endif %}
+  {% endfor %}
 </div>
