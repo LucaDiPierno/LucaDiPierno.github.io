@@ -3,7 +3,7 @@ title: "Sapience: Autonomous Search & Rescue Drones"
 description: "Developing multi-agent autonomy for GPS-denied disaster zones."
 image: "/assets/images/sapience.jpg"
 status: "active"  # Must match a key in `projects_status`
-permalink: /projects/sapience/
+permalink: /projectsaa/sapience/
 layout: single
 ---
 

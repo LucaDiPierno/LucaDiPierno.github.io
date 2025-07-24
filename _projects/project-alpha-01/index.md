@@ -12,6 +12,6 @@ About the Project
 
 This is a longer description with text, images, and links.
 
-![Result](img1.jpg)
+![Result](thumb.jpg)
 
 [Visit GitHub Repo](https://github.com/your-org/project)
