@@ -18,11 +18,11 @@ Robotics PhD student building autonomy for aerial and space robots.
 
 <!-- Button row -->
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-bottom: 2em;">
-  <a href="/blog/" style="text-decoration: none;">
+  <!-- <a href="/blog/" style="text-decoration: none;">
     <button style="padding: 12px 24px; font-size: 16px; border-radius: 8px; background-color: #0b84ff; color: white; border: none;">
       📝 Blog
     </button>
-  </a>
+  </a> -->
   <a href="/projects/" style="text-decoration: none;">
     <button style="padding: 12px 24px; font-size: 16px; border-radius: 8px; background-color: #0b84ff; color: white; border: none;">
       🚀 Projects
