@@ -4,7 +4,7 @@ title: Sapience Competition 2
 description: Multi-Agent search & rescue student competition
 img: assets/img/Sapience_Alabama_Winner.jpg
 importance: 1
-category: Research
+category: work
 related_publications: true
 ---
 
