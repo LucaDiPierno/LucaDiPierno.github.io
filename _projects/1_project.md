@@ -43,13 +43,12 @@ The core objective of our project was to design and implement an integrated syst
 
 Our system architecture was designed from the ground up with modularity, adaptability, and robustness in mind. It features:
 
-- Real-time perception and semantic awareness, including object detection, dynamic tracking, and the generation of annotated maps.
-
-- Multi-layered planning and execution, with both global and local path planners integrated with obstacle avoidance strategies and dynamic path adaptation.
-
-- A modular autonomy stack, built around our own finite-state-machine and behavior-tree-based architecture, enabling flexible decision-making and reactivity in unstructured environments.
-
-- Sensor fusion and redundancy, allowing the system to dynamically switch between multiple odometry and localization sources to ensure reliable navigation even in degraded conditions.
+<ul>
+    <li>Real-time perception and semantic awareness, including object detection, dynamic tracking, and the generation of annotated maps.</li>
+    <li>Multi-layered planning and execution, with both global and local path planners integrated with obstacle avoidance strategies and dynamic path adaptation.</li>
+    <li>A modular autonomy stack, built around our own finite-state-machine and behavior-tree-based architecture, enabling flexible decision-making and reactivity in unstructured environments.</li>
+    <li>Sensor fusion and redundancy, allowing the system to dynamically switch between multiple odometry and localization sources to ensure reliable navigation even in degraded conditions.</li>
+</ul>
 
 The entire system was deployed on board our UAVs and executed fully autonomously, with no external computation or communication infrastructure.
 
@@ -66,24 +65,24 @@ The entire system was deployed on board our UAVs and executed fully autonomously
 </div>
 
 
-## From Simulation to Real-World Demonstrations
+From Simulation to Real-World Demonstrations
 
 What makes this project particularly rewarding is its real-world validation across diverse scenarios. The system was not only tested in the structured environment of competitions but also deployed in vastly different field settings, without requiring major architectural changes. Among the successful demonstrations were:
 
-- Autonomous exploration and mapping of a highway tunnel, including obstacle avoidance and semantic annotation of detected elements.
-
-- 3D reconstruction of a freeway bridge, generated using onboard visual and Lidar-based mapping tools during an autonomous flight.
-
-- Exploration of complex indoor buildings, with semantic detection and real-time annotation of objects of interest, simulating real-world search and rescue missions.
+<ul>
+    <li>Autonomous exploration and mapping of a highway tunnel, including obstacle avoidance and semantic annotation of detected elements.</li>
+    <li>3D reconstruction of a freeway bridge, generated using onboard visual and Lidar-based mapping tools during an autonomous flight.</li>
+    <li>Exploration of complex indoor buildings, with semantic detection and real-time annotation of objects of interest, simulating real-world search and rescue missions.</li>
+</ul>
 
 These tests not only demonstrated the maturity and robustness of our architecture, but also proved its adaptability to different environments and mission profiles.
 
-## Broader Impact and Future Directions
+Broader Impact and Future Directions
 
 The insights gained from this project—and the resulting software and system design—have contributed directly to our involvement in larger, high-impact initiatives such as SPRIND – Fully Autonomous Flights 2.0, funded by the German Federal Agency for Disruptive Innovation. Within this project, our research group (Control of Networked Systems) is actively contributing toward the development of fully autonomous aerial platforms for complex missions, building upon the core principles established in our earlier work.
 
 
-## Reflections on Teamwork and Leadership
+Reflections on Teamwork and Leadership
 
 Beyond the technical aspects, this project has been a formative experience in leading interdisciplinary collaboration under real-world constraints. From aligning hardware-software interfaces to defining mission strategies and resolving failures in the field, the journey demanded constant adaptation, clear communication, and a shared vision within the team.
 
