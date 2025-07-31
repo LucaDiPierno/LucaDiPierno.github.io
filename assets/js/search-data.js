@@ -437,11 +437,16 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-sapience-competition-2",
-          title: 'Sapience Competition 2',
-          description: "Autonomous Multi-Agent Search and Rescue in GPS-Denied Environments",
+          section: "News",},{id: "projects-sapience-competition-1",
+          title: 'Sapience Competition 1',
+          description: "Indoor Autonomous Multi-Agent Search and Rescue in GPS-Denied Environments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-sapience-competition-2",
+          title: 'Sapience Competition 2',
+          description: "Outdoor Autonomous Multi-Agent Search and Rescue in GPS-Denied Environments",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
