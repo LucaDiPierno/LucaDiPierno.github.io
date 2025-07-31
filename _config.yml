@@ -7,7 +7,7 @@ first_name: Luca
 middle_name: Nicola
 last_name: Di Pierno
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Please contact me via email or through LinkedIn account.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
