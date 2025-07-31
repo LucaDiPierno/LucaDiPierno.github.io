@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Sapience Competition 2
+description: Multi-Agent search & rescue student competition
+img: assets/img/Sapience_Alabama_Winner.jpg
 importance: 1
-category: work
+category: Research
 related_publications: true
 ---
 
