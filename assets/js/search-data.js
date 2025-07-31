@@ -447,16 +447,11 @@ ninja.data = [{
           description: "Outdoor Autonomous Multi-Agent Search and Rescue in GPS-Denied Environments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-project-template",
+          title: 'Project Template',
+          description: "Project Template",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
+              window.location.href = "/projects/3_project/";
             },},{
         id: 'social-email',
         title: 'email',
@@ -470,13 +465,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/LucaDiPierno", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
         },
       },{
         id: 'social-linkedin',
