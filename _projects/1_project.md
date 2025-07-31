@@ -8,28 +8,23 @@ category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Autonomous Search and Rescue in GPS-Denied Environments
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## From Concept to Competition: Leading a Student Project Toward Real-World Impact
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Over the course of the past 1.5 years, I have led a student team at the University of Klagenfurt in an ambitious research-driven competition centered on a highly relevant topic in robotics: multi-agent autonomous systems for search and rescue operations in environments where GPS is not available. This challenge lies at the intersection of robotic autonomy, real-time perception, and collaborative decision-making—domains that are becoming increasingly critical in modern disaster response scenarios.
+
+The core objective of our project was to design and implement an integrated system of aerial robots capable of autonomously exploring unknown environments, constructing semantic maps, and identifying actionable insights such as hazardous zones, safe access routes, or potential victims. These functionalities are intended to support first responders like the Red Cross during critical interventions in complex and potentially dangerous conditions.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/sapience_comp2/side_view_drone.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/sapience_comp2/drone_me.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/sapience_comp2/flying_drones.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -44,38 +39,58 @@ To give your project a background in the portfolio page, just add the img tag to
     This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Technical Overview
+
+Our system architecture was designed from the ground up with modularity, adaptability, and robustness in mind. It features:
+
+- Real-time perception and semantic awareness, including object detection, dynamic tracking, and the generation of annotated maps.
+
+- Multi-layered planning and execution, with both global and local path planners integrated with obstacle avoidance strategies and dynamic path adaptation.
+
+- A modular autonomy stack, built around our own finite-state-machine and behavior-tree-based architecture, enabling flexible decision-making and reactivity in unstructured environments.
+
+- Sensor fusion and redundancy, allowing the system to dynamically switch between multiple odometry and localization sources to ensure reliable navigation even in degraded conditions.
+
+The entire system was deployed on board our UAVs and executed fully autonomously, with no external computation or communication infrastructure.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/sapience_comp2/me_system_pres.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/sapience_comp2/slam_camera_results.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
+## From Simulation to Real-World Demonstrations
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+What makes this project particularly rewarding is its real-world validation across diverse scenarios. The system was not only tested in the structured environment of competitions but also deployed in vastly different field settings, without requiring major architectural changes. Among the successful demonstrations were:
 
-{% endraw %}
+- Autonomous exploration and mapping of a highway tunnel, including obstacle avoidance and semantic annotation of detected elements.
+
+- 3D reconstruction of a freeway bridge, generated using onboard visual and Lidar-based mapping tools during an autonomous flight.
+
+- Exploration of complex indoor buildings, with semantic detection and real-time annotation of objects of interest, simulating real-world search and rescue missions.
+
+These tests not only demonstrated the maturity and robustness of our architecture, but also proved its adaptability to different environments and mission profiles.
+
+## Broader Impact and Future Directions
+
+The insights gained from this project—and the resulting software and system design—have contributed directly to our involvement in larger, high-impact initiatives such as SPRIND – Fully Autonomous Flights 2.0, funded by the German Federal Agency for Disruptive Innovation. Within this project, our research group (Control of Networked Systems) is actively contributing toward the development of fully autonomous aerial platforms for complex missions, building upon the core principles established in our earlier work.
+
+
+## Reflections on Teamwork and Leadership
+
+Beyond the technical aspects, this project has been a formative experience in leading interdisciplinary collaboration under real-world constraints. From aligning hardware-software interfaces to defining mission strategies and resolving failures in the field, the journey demanded constant adaptation, clear communication, and a shared vision within the team.
+
+I would like to thank the brilliant students who made this possible:
+
+Gilbert Tanner, Georg Steinthaler, Tim Schumann, Ben Wesse, and Jonas Spieler.
+
+Your dedication, creativity, and resilience shaped this project from the initial concept to a system ready for real-world deployment.
+
+
