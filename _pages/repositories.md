@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: This website provides an automatically updated overview of my public GitHub repositories, offering insights into my research and development work across robotics, autonomy frameworks, and software infrastructure. Each repository includes metadata such as language usage, last update, and repository statistics to provide a transparent view of my technical contributions and activity over time.
 nav: true
 nav_order: 4
 ---
