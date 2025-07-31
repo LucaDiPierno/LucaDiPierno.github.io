@@ -65,7 +65,7 @@ The entire system was deployed on board our UAVs and executed fully autonomously
 </div>
 
 
-From Simulation to Real-World Demonstrations
+## From Simulation to Real-World Demonstrations
 
 What makes this project particularly rewarding is its real-world validation across diverse scenarios. The system was not only tested in the structured environment of competitions but also deployed in vastly different field settings, without requiring major architectural changes. Among the successful demonstrations were:
 
@@ -77,18 +77,24 @@ What makes this project particularly rewarding is its real-world validation acro
 
 These tests not only demonstrated the maturity and robustness of our architecture, but also proved its adaptability to different environments and mission profiles.
 
-Broader Impact and Future Directions
+## Broader Impact and Future Directions
 
 The insights gained from this project—and the resulting software and system design—have contributed directly to our involvement in larger, high-impact initiatives such as SPRIND – Fully Autonomous Flights 2.0, funded by the German Federal Agency for Disruptive Innovation. Within this project, our research group (Control of Networked Systems) is actively contributing toward the development of fully autonomous aerial platforms for complex missions, building upon the core principles established in our earlier work.
 
 
-Reflections on Teamwork and Leadership
+## Reflections on Teamwork and Leadership
 
 Beyond the technical aspects, this project has been a formative experience in leading interdisciplinary collaboration under real-world constraints. From aligning hardware-software interfaces to defining mission strategies and resolving failures in the field, the journey demanded constant adaptation, clear communication, and a shared vision within the team.
 
 I would like to thank the brilliant students who made this possible:
 
-Gilbert Tanner, Georg Steinthaler, Tim Schumann, Ben Wesse, and Jonas Spieler.
+<ul>
+    <li>Gilbert Tanner</li>
+    <li>Georg Steinthaler</li>
+    <li>Tim Schumann</li>
+    <li>Ben Wesse</li>
+    <li>Jonas Spieler</li>
+</ul>
 
 Your dedication, creativity, and resilience shaped this project from the initial concept to a system ready for real-world deployment.
 
