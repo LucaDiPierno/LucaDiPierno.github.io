@@ -87,7 +87,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: DipTech # blog_name will be displayed in your blog page
-blog_description: Notes and insights on robotics, autonomy, and intelligent systems.
+blog_description: Posts on Robotics and Autonomy
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -144,7 +144,7 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false
   news:
     defaults:
       layout: post
