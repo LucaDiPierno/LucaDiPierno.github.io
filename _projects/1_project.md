@@ -5,6 +5,7 @@ description: Indoor Autonomous Multi-Agent Search and Rescue in GPS-Denied Envir
 img: assets/img/projects/sapience_comp1/SLAM_Building.png
 importance: 2
 category: work
+status: In Progress  # or Finished, Planned
 related_publications: false
 ---
 

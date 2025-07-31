@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
 subtitle: <a Robotics PhD student building autonomy for aerial and space robots.
 

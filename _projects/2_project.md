@@ -5,6 +5,7 @@ description: Outdoor Autonomous Multi-Agent Search and Rescue in GPS-Denied Envi
 img: assets/img/Sapience_Alabama_Winner.jpg
 importance: 1
 category: work
+status: In Progress  # or Finished, Planned
 related_publications: true
 ---
 

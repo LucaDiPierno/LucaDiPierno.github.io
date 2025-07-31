@@ -13,6 +13,28 @@
       {% endif %}
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>
+
+
+        {% if project.status %}
+          {% assign status = project.status | downcase %}
+          {% case status %}
+            {% when "active" %}
+              {% assign status_label = "In Progress" %}
+              {% assign badge_class = "badge badge-success" %}
+            {% when "completed" %}
+              {% assign status_label = "Finished" %}
+              {% assign badge_class = "badge badge-primary" %}
+            {% when "upcoming" %}
+              {% assign status_label = "Planned" %}
+              {% assign badge_class = "badge badge-warning" %}
+            {% else %}
+              {% assign status_label = status %}
+              {% assign badge_class = "badge badge-secondary" %}
+          {% endcase %}
+          <span class="{{ badge_class }} mb-2">{{ status_label }}</span>
+        {% endif %}
+
+
         <p class="card-text">{{ project.description }}</p>
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
