@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
+title: Project Template
+description: Project Template
+img: assets/img/5.jpg
+importance: 3
 category: fun
-status: In Progress  # or Finished, Planned
+status: Planned  # or Finished, Planned
 ---
 
 Every project has a beautiful feature showcase page.

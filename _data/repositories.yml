@@ -6,6 +6,8 @@ repo_description_lines_max: 2
 
 github_repos:
   - LucaDiPierno/MSCEqF
+  - aau-cns/birdwatch
   - aau-cns/poet
   - ros-navigation/navigation2
   - aau-cns/mars_lib
+  - aau-cns/Ardupilot_Multiagent_Simulation
