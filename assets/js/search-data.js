@@ -453,7 +453,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-sapience-competition-2",
           title: 'Sapience Competition 2',
-          description: "Multi-Agent search &amp; rescue student competition",
+          description: "Autonomous Multi-Agent Search and Rescue in GPS-Denied Environments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-4",
