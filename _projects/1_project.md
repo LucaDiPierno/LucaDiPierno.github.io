@@ -1,14 +1,13 @@
 ---
 layout: page
 title: Sapience Competition 2
-description: Multi-Agent search & rescue student competition
+description: Autonomous Multi-Agent Search and Rescue in GPS-Denied Environments
 img: assets/img/Sapience_Alabama_Winner.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-# Autonomous Search and Rescue in GPS-Denied Environments
 
 ## From Concept to Competition: Leading a Student Project Toward Real-World Impact
 
@@ -21,25 +20,27 @@ The core objective of our project was to design and implement an integrated syst
         {% include figure.liquid loading="eager" path="assets/img/projects/sapience_comp2/side_view_drone.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/sapience_comp2/drone_me.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/sapience_comp2/system_presentation.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/sapience_comp2/flying_drones.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    TBD
 </div>
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/sapience_comp2/preparation.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Field tests for final integration testing, at the Hobby Airport in Klagenfurt, Austria.
 </div>
 
-## Technical Overview
+### Technical Overview
 
 Our system architecture was designed from the ground up with modularity, adaptability, and robustness in mind. It features:
 
@@ -57,15 +58,15 @@ The entire system was deployed on board our UAVs and executed fully autonomously
         {% include figure.liquid path="assets/img/projects/sapience_comp2/me_system_pres.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/sapience_comp2/slam_camera_results.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/sapience_comp2/drone_me.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    TBD
 </div>
 
 
-## From Simulation to Real-World Demonstrations
+### From Simulation to Real-World Demonstrations
 
 What makes this project particularly rewarding is its real-world validation across diverse scenarios. The system was not only tested in the structured environment of competitions but also deployed in vastly different field settings, without requiring major architectural changes. Among the successful demonstrations were:
 
@@ -77,12 +78,12 @@ What makes this project particularly rewarding is its real-world validation acro
 
 These tests not only demonstrated the maturity and robustness of our architecture, but also proved its adaptability to different environments and mission profiles.
 
-## Broader Impact and Future Directions
+### Broader Impact and Future Directions
 
 The insights gained from this project—and the resulting software and system design—have contributed directly to our involvement in larger, high-impact initiatives such as SPRIND – Fully Autonomous Flights 2.0, funded by the German Federal Agency for Disruptive Innovation. Within this project, our research group (Control of Networked Systems) is actively contributing toward the development of fully autonomous aerial platforms for complex missions, building upon the core principles established in our earlier work.
 
 
-## Reflections on Teamwork and Leadership
+### Reflections on Teamwork and Leadership
 
 Beyond the technical aspects, this project has been a formative experience in leading interdisciplinary collaboration under real-world constraints. From aligning hardware-software interfaces to defining mission strategies and resolving failures in the field, the journey demanded constant adaptation, clear communication, and a shared vision within the team.
 
