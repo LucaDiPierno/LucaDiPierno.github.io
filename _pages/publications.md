@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: List of scientific publications or works, I was involved.
 nav: true
 nav_order: 3
